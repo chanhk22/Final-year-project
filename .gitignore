@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Custom Project Files (CRITICAL)
+
+# My Virtual Environment
+my_env/
+
+# Data & Cache (Do NOT upload DAIC-WOZ)
+data_raw/
+data/
+cache/
+
+# Model Checkpoints & Large Files
+checkpoints_improved/
+checkpoints_improved_raw/
+checkpoints_bert_wav2vec/
+explainability_best/
+*.pt
+*.pth
