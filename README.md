@@ -205,4 +205,3 @@ All results are reproducible following the instructions in **Appendix D**.
 ## License
 
 This project is for academic use only. DAIC-WOZ dataset usage subject to USC ICT terms.
-"""
