@@ -1,0 +1,23 @@
+# You need to set all the paths to your own path
+
+paths:
+  raw_root: ./data_raw   # Raw file
+
+  daic_woz:
+    audio_dir: ./data_raw/Audio
+    transcript_dir: ./data_raw/transcript
+    features_dir:  ./data_raw/Features   # CLNF, COVAREP, FORMANT
+    labels_dir:   ./data_raw/labels
+
+outputs:
+  processed_root: ./data/processed                     
+  cache_root:     ./data/cache   
+
+preprocessing:
+  ellie_regex: "(?i)hi\\s*i[' ]?m\\s*ellie" 
+
+labels: 
+  daic_woz:
+    train_split: ./data_raw/labels/train_split_Depression_AVEC2017_corrected.csv
+    dev_split: ./data_raw/labels/dev_split_Depression_AVEC2017.csv
+    test_split: ./data_raw/labels/full_test_split.csv
